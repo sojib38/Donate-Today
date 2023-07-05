@@ -1,3 +1,303 @@
 *{
+    margin: 0;
+    padding: 0;
     font-family: 'Belanosima', sans-serif;
 }
+
+/* Header section start */
+.header-sec{
+    width: 100vw;
+    background-image: url(donate-today-main/images/donation6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: cover;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 150px;
+    margin-bottom: 100px;
+    opacity: 1.5;
+}
+
+.hdr-h1{
+    font-size: 80px;
+    color: white;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.hdr-p{
+    color: white;
+    font-size: 23px;
+    margin-top: 30px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.donate-btn{
+    padding: 15px 40px;
+    background-color: rgb(246, 77, 48);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+/* Header section End */
+
+
+/*Donate-today section start*/
+
+.donate-today-section{
+    text-align: center;
+}
+.donate-h1{
+    font-size: 50px;
+}
+
+.donate-p{
+    font-size: 20px;
+    padding: 20px 450px;
+    color: rgb(132, 124, 124);
+    
+}
+
+
+/* Tk section */
+
+.tk-sec{
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+.tk{
+    height: 100px;
+    width: 160px;
+    font-weight: bold;
+    font-size: 28px;
+    color: gray;
+    padding-top: 46px;
+}
+
+#twoh-cont{
+    height: 110px;
+    width: 160px;
+    font-weight: bold;
+    font-size: 26px;
+    padding-top: 46px;
+    background-color: rgb(233, 219, 217);
+    border-radius: 5px;
+    border: 2px solid rgb(239, 62, 31);
+}
+.twoh-tk{
+    color: rgb(239, 62, 31);
+}
+/* Tk section */
+
+.amount-input{
+    border: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+hr{
+    margin: 0 auto;
+    width: 800px;
+}
+
+#donate-btn{
+    padding: 15px 40px;
+    background-color: rgb(246, 77, 48);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    font-weight: bold;
+}
+/*Donate-today section end*/
+
+/* Donate Plan Section start*/
+
+.donate-plan{
+    text-align: center;
+}
+
+.plan-h1{
+    font-size: 50px;
+}
+
+.plan-p{
+    font-size: 20px;
+    padding: 20px 450px;
+    color: rgb(132, 124, 124);
+    margin-bottom: 40px;
+}
+
+
+/* Card section */
+
+.card-section{
+    display: flex;
+    width: 1220px;
+    margin: 0 auto;
+    gap: 20px;
+
+    margin-bottom: 100px;
+}
+
+.card{
+    height: 350px;
+    width: 390px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.card-1{
+    background-color: rgb(214, 247, 243);
+}
+
+.card-2{
+    background-color: rgb(234, 205, 234);
+}
+
+.card-3{
+    background-color: rgb(251, 217, 223);
+}
+
+.card-png-1,.card-png-2,.card-png-3{
+    padding-top: 70px;
+    padding-left: 15px;
+}
+
+.card-h1{
+    margin-top: 20px;
+    padding-left: 15px;
+}
+
+.card-p{
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 22px;
+}
+/* Card section */
+/* Donate Plan section end */
+
+
+/*Slid section start*/
+
+.slid-sec{
+    display: flex;
+    gap: 100px;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.slid-1 img{
+    height: 450px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.slid-2{
+    
+}
+
+.slid-h1{
+    font-size: 60px;
+}
+
+.slid-p{
+    margin-top: 30px;
+    font-size: 30px;
+}
+/*Slid section End*/
+
+/* Get Updates section start */
+
+.get-updt-sec{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.get-h1{
+    font-size: 50px;
+}
+
+.get-p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 23px;
+    color: gray;
+}
+
+.box{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 70px;
+    padding-bottom: 20px;
+    background-color: #FFD6A5;
+}
+
+.inp-email{
+    width: 300px;
+    margin-top: 90px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    font-size: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    background-color: rgb(228, 221, 221);
+}
+
+.sub-btn{
+    padding-top: 16px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: -5px;
+    font-size: 18px;
+    font-weight: bold;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    background-color: tomato;
+}
+/* Get Updates section end */
+
+/* Footer start */
+
+footer{
+    height: 150px;
+    width: 100%;
+    padding-top: 80px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;
+}
+.footer-h1{
+    margin-bottom: 30px;
+    color: tomato;
+}
+
+.footer-p {
+    color: white;
+}
+
+.footer-p2{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+/* Footer End */
